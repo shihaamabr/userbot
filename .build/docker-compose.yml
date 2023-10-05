@@ -8,6 +8,6 @@ services:
     hostname: userbot
     image: ghcr.io/athphane/userbot
     platform: linux/amd64/v3
-#  userbot-arm:
-#    <<: *userbot-arm
-#    platform: linux/arm64
+  userbot-arm:
+    <<: *userbot-arm
+    platform: linux/arm64
